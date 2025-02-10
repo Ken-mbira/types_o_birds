@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Bird Type</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>What Kind of Bird?</h1>
+        </div>
+
+        <div>
+            <img id="image-preview" src="./assets/ff132cf0-d4a6-4d0a-b201-e38bca7d4b8a.jpg">
+        </div>
+
+        <form id="image-form">
+            <input id="image-input" type="file" name="image-input">
+
+            <div>
+                <button id="submit-button">Submit</button>
+            </div>
+        </form>
+
+        <div id="answer-box">
+            <p>Results: </p>
+            <div class="boxed">
+                <p id="answer">This is a chicken</p>
+                <p id="probability">Probability</p>
+            </div>
+            <div>
+                <button id="reset-from-success" class="reset">Reset</button>
+            </div>
+        </div>
+
+        <div id="problem-box">
+            <p>Problem: </p>
+            <div class="boxed">
+                <p id="problem-text">This is not a chicken</p>
+            </div>
+            <div>
+                <button id="reset-from-failure" class="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

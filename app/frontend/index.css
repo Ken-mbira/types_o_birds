@@ -1,0 +1,61 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#image-preview {
+    height: 300px;
+    width: 300px;
+    display: none;
+}
+
+#image-preview > img {
+    height: auto;
+    width: 100%
+}
+
+
+#submit-button {
+    margin-top: 1rem;
+}
+
+#image-input {
+    margin-top: 1rem;
+}
+
+#answer-box {
+    margin-top: 1rem;
+}
+
+#answer {
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+#probability {
+    font-size: .9rem;
+}
+
+#problem-box {
+    margin-top: 1rem;
+}
+
+.boxed{
+    padding: 1rem;
+    border: black 0.4px solid;
+}
+
+#problem-text {
+    width: 250px;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.reset {
+    margin-top: 1rem;
+}
